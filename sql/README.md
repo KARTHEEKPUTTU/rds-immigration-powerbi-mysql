@@ -36,7 +36,6 @@ This project uses **AWS RDS (MySQL)** as the relational data source for analytic
 - Power BI connects directly to the AWS RDS MySQL database to retrieve data for dashboard creation.
 
 ---
-
 ### Notes
 - SQL scripts are not included in this repository because database creation and data loading were performed interactively using MySQL Workbench.
 - This project focuses on **cloud database connectivity and analytics consumption**, rather than automated database provisioning.
