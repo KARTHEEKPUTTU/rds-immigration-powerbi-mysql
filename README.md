@@ -4,7 +4,6 @@
 This project demonstrates how cloud-hosted relational data stored in **AWS RDS (MySQL)** can be directly consumed by **Power BI** for analytics and visualization.
 
 The project focuses on database connectivity, data loading into a managed SQL service, and building dashboards from cloud-based relational data. It represents a realistic Data Analyst workflow involving AWS RDS, MySQL Workbench, and Power BI.
-
 ---
 
 ## Architecture Overview
@@ -15,7 +14,6 @@ Cleaned Data → AWS RDS (MySQL) → Power BI → Dashboards
 - Immigration data was stored in an AWS RDS MySQL database
 - Power BI connects directly to the RDS instance using database credentials
 - Dashboards are built using live data from the cloud database
-
 ---
 
 ## Dataset
@@ -25,7 +23,6 @@ Cleaned Data → AWS RDS (MySQL) → Power BI → Dashboards
 - **Table Structure:** Columns match the cleaned dataset used in prior projects
 
 > Raw data preprocessing was performed in a previous AWS S3 + Python pipeline project.
-
 ---
 
 ## Tools & Technologies
