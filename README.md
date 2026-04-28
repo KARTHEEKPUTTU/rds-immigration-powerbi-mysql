@@ -10,7 +10,6 @@ The project focuses on database connectivity, data loading into a managed SQL se
 **Flow:**
 
 Cleaned Data → AWS RDS (MySQL) → Power BI → Dashboards
-
 - Immigration data was stored in an AWS RDS MySQL database
 - Power BI connects directly to the RDS instance using database credentials
 - Dashboards are built using live data from the cloud database
